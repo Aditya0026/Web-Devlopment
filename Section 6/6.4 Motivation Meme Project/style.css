@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+div{
+    width:50% ;
+    margin-left: 25%;
+}
+
+#image{
+    width: 100;
+    border: 5px solid white;
+
+}
+
+h1{
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+p{
+    color: aliceblue;
+}

@@ -1,3 +1,7 @@
 //This is first code in javaScript
-alert("Aditya");
-alert("Mohit");
+
+
+var a = "Deepak";
+console.log(a);
+var b = 23;
+console.log(b);

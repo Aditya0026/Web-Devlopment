@@ -1,3 +1,3 @@
 console.log("Mr aditya " + " " + "Someome");
 console.log("Human" + " " + "Alien");
-console.log("Aditya" + " "+ "kr");
+console.log("Mr."+" "+"Aditya" + " "+ "Kumar");

@@ -1,6 +1,7 @@
+//Defining Function
 function sayHello(){
     return "Hello Everbody";
-
 }
 
-console.log(sayHello());
+// Calling function
+console.log(sayHello()); 

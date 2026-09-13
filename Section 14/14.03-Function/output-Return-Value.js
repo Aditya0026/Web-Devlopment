@@ -37,4 +37,4 @@ function calcChange(startingAmount, costPerBottele){
 return Change;
 }
 
-console.log("Hello master, here is your" + getMilk(10, 3) + "change.")
+console.log("Hello master, here is your " + getMilk(10, 3) + " change.")

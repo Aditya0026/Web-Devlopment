@@ -5,25 +5,25 @@ const repoCount = 36
 // using backstick it's provide string interpolation 
 // We can directly add variable and Method inside backstick 
 
-//console.log(`Hello my name is ${userName} and my repp count is ${repoCount}`)
+console.log(`Hello my name is ${userName} and my repp count is ${repoCount}`)
 
 
 const stu = new String ('Aditya');
 
 console.log(stu);
-// console.log(stu [4]);
-// console.log(stu.length);
+console.log(stu [4]);
+console.log(stu.length);
 
-// console.log(stu.toUpperCase());
-// console.log(stu.toLowerCase());
+console.log(stu.toUpperCase());
+console.log(stu.toLowerCase());
 
 
-// console.log(stu.charAt(3));
-// console.log(stu.indexOf('A'));
+console.log(stu.charAt(3));
+console.log(stu.indexOf('A'));
 
 // note : we cant't use negative value in substring method
-// const newString = stu.substring(0, 3);
-// console.log(newString);
+const newString = stu.substring(0, 3);
+console.log(newString);
 
 //Note:  We can use negative value in slice method
 const stu2 = "nothing";

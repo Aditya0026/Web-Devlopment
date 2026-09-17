@@ -12,6 +12,10 @@ anotherStu = "Abhisheak";
 console.log(anotherStu); // we get "Abhisheak"
 console.log(Student); // but here we get "Arun" because it's copy we can't make changes in original value
 
+
+
+// Heap memory example 
+// if change value so original value is changed
 let userOne = {
 
     email:"user@google.com",

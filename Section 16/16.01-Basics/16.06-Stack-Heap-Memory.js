@@ -4,9 +4,11 @@
  2. Heap Memory :  Non-primitive data type used Heap momory 
 */
 
+// Note : “Stack is used for function execution and primitive data,
+//  while heap is used for storing objects and reference-type data.”
 
 // Stack Memory example 
-let Student = "Arun";
+let Student = "Aditya";
 let anotherStu = Student;
 anotherStu = "Abhisheak";
 console.log(anotherStu); // we get "Abhisheak"
@@ -15,7 +17,8 @@ console.log(Student); // but here we get "Arun" because it's copy we can't make 
 
 
 // Heap memory example 
-// if change value so original value will be changed 
+// if change value so original value will be change 
+// 
 let userOne = {
 
     email:"user@google.com",

@@ -10,4 +10,17 @@ let Student = "Arun";
 let anotherStu = Student;
 anotherStu = "Abhisheak";
 console.log(anotherStu); // we get "Abhisheak"
-console.log(Student);
+console.log(Student); // but here we get "Arun" because it's copy we can't make changes in original value
+
+let userOne = {
+
+    email:"user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "aditya@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
